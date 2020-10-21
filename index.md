@@ -18,7 +18,7 @@ Winnipeg, MB R3R 0M9 · (204) 918-0758
 ## **Education and Awards**
 {:.titles}
 
-### **Bachelor of computer Science honours (co-op)**{:.green} `2014 - Present`{:.dates}
+### **Bachelor of Computer Science Honours (Co-op)**{:.green} `2014 - Present`{:.dates}
 
 ### **University of Manitoba**
 {:.grey}
@@ -36,7 +36,7 @@ Web application used to track statistics about my friends and I annual collabora
 
 ### **Music Visualizer**{:.green} `2019`{:.dates}
 
-Arduino project that flashes individually addressable LEDs to various frequencies of music. Created using a spectrum Arduino shield utilizing the FastLED animation library.
+Arduino project that flashes individually addressable LEDs to various frequencies of music. Created using a spectrum Arduino shield utilizing the Adafruit NeoPixel animation library.
 
 ### **Layout Manager**{:.green} `2017`{:.dates}
 
