@@ -1,0 +1,67 @@
+html * {
+    font-family: Calibri !important;
+}
+
+body {
+    margin: 1rem 20%;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+h3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+p {
+    margin-top: 0;
+}
+
+ul {
+    margin-top: 0;
+    list-style: none;
+}
+
+li {
+    padding-top: 10px;
+}
+
+li::before {
+    content: "\2022";
+    color: #1d824c;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+.titles {
+    border: 1px solid;
+    padding-left: 5px;
+}
+
+.dates {
+    font-weight: normal;
+    color: #595959;
+    font-size: 16px;
+}
+
+.green {
+    color: #1d824c;
+}
+
+.grey {
+    color: #595959;
+    font-weight: normal;
+}
+
+.name {
+    font-size: 50px;
+}
+
+.center {
+    text-align: center;
+}
