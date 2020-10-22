@@ -1,7 +1,4 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: resume
 title: Connor Bean's Resume
 ---
@@ -70,7 +67,7 @@ Practical experience: Sass, Foundation, XUnit, PHPUnit, Moq, Ginkgo, DataTables,
 ### **Bold Commerce**
 {:.grey}
 
-* Developed and integrated an event-based email system to allow clients to send out upcoming order emails to customers.
+* Developed and integrated an event-based email system to allow clients to send upcoming order emails to customers.
 * Created front-end interface for viewing and managing third party API keys, which are used by clients to access and manipulate data about their E-commerce store.
 * Collaborated with team members during a company-wide hackathon to port over the Subscription app from BigCommerce to Shopify.
 
