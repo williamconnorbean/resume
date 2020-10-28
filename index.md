@@ -1,6 +1,5 @@
 ---
 layout: resume
-title: Connor Bean's Resume
 ---
 
 # **CONNOR**{:.grey} **BEAN**
