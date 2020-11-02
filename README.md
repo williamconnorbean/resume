@@ -4,17 +4,17 @@
 This README will describe the practical steps of how to host and format a resume using Markdown, GitHub Pages, and Jekyll, with an emphasis on the technical writing principles stated in Andrew Etter's book *Modern Technical Writing*.
 
 ## Prerequisites
-1. This README assumes basic knowledge in how to edit a Markdown file. See [More Resources](#more-resources) below for information on how to get started with Markdown.
-2. This README also assumes the knowledge of how to use Git on the command line. See [More Resources](#more-resources) below for an interactive tutorial on learning the basics of command line Git.
+1. This README assumes basic knowledge of how to edit a Markdown file. See [More Resources](#more-resources) below for information on how to get started with Markdown.
+2. This README also assumes knowledge of how to use Git on the command line. See [More Resources](#more-resources) below for an interactive tutorial on learning the basics of command line Git.
 
 ## Instructions
 ### Create a GitHub Account and Repository
 > GitHub will allow us to take advantage of the benefits of a distributed version control system. As Andrew Etter puts it, it will allow us to work in an offline manner, enabling concurrent and collaborative work on the same file. Furthermore, with access to a version control system like Git, there will be a clear history of changes among modified files.
 1. Navigate to [GitHub](https://github.com/join) and create an account.
 2. Create a new GitHub repository [here](https://github.com/new).
-3. Ensure the repository name is of the following format: `<username>.github.io`, where `<username>` is your GitHub username you created in step 1.
+3. Ensure the repository name is in the following format: `<username>.github.io`, where `<username>` is your GitHub username you created in step 1.
 4. Ensure the visibility of your new repository is `Public`.
-5. Download the contents of this repository [here](https://github.com/williamconnorbean/williamconnorbean.github.io/archive/master.zip) and extract it to a directory on your local machine. **This will be used as an initial template for creating your resume.**
+5. Download the contents of this repository [here](https://github.com/williamconnorbean/williamconnorbean.github.io/archive/main.zip) and extract it to a directory on your local machine. **This will be used as an initial template for creating your resume.**
 7. Commit and Push this template to your new GitHub repository.
 ```
 $ cd [directory-created-above]
@@ -26,17 +26,17 @@ $ git remote add origin https://github.com/<username>/<username>.github.io.git
 $ git push -u origin main
 ```
 
-### Viewing your GitHub Pages static site
+### Viewing your GitHub Pages Static Site
 > Andrew Etter recommends static sites for their simplicity, security, ease of hosting, and lack of server-side dependencies. Jekyll, our static site generator, is used to abstract away complexity. According to Andrew Etter, "The basics are that you provide a static site generator with content (lightweight markup) and a theme (templated HTML and CSS), and it processes everything into a working website." This allows us to simply modify our Markdown file and let Jekyll regenerate our site.
 1. Navigate to your GitHub repository settings.
 2. Scroll to the bottom where you will see the heading `GitHub Pages`.
 3. Select the branch `main` under `Source` and select `Save`.
-3. Ensure the `Minima` theme is selected under `Theme Chooser` after saving. This theme is pulled from the `_config.yml` file in the root of the directory.
+3. Ensure the `Minima` theme is selected under `Theme Chooser` after saving. This theme is pulled from the `_config.yml` file in the root of the project.
 4. Navigate to `https://<username>.github.io/` to view your static site.
 
 ![view-resume](/assets/view-resume.gif)
 
-### Editing resume and Jekyll Front Matter
+### Editing Resume and Jekyll Front Matter
 > Editing the resume content is simple. This is thanks to the use of the lightweight markup language Markdown. As Andrew Etter puts it, "The entire point of lightweight markup is to make it easier to produce well-formed XML, and we need XML in order to build websites." This allows the content of your resume to remain human-readable while still allowing it to be easily processed into a static website.
 1. Update `index.md` with your resume information using Markdown. Note the YAML front matter block at the top of the file, indicated by:
 ```YAML
@@ -53,9 +53,9 @@ description: >- # this means to ignore newlines
   This is my resume formatted in Markdown and deployed to GitHub
   Pages using the static site generator Jekyll.
 ```
-These variables are used within `resume.html` to provide HTML header information and are accessed via the global Jekyll variable `site`.
+These variables are used within `resume.html` to provide HTML header information. They are accessed via the global Jekyll variable `site`.
 
-### Styling your resume
+### Styling your Resume
 > The separation of our CSS stylesheets from the content of the resume further reinforces Andrew Etter's recommendation to use a lightweight markup language. According to Andrew Etter, this creates a natural separation between the content and style; this is ideal for documentation being kept in version control.
 1. Custom CSS can be used to style your resume via custom stylesheets in the `css` directory.
 2. Sytlesheets can be added to `resume.html` by supplying a link to the custom stylesheet in the header information.
@@ -100,4 +100,4 @@ Navigate to the settings of your GitHub repository and check the following:
 3. Ensure your GitHub Pages site is being built from the `master` branch.
 4. Ensure your site is using the `Minima` theme.
 
-After completing  the above checks, you should see a green checkmark below the `GitHub Pages` section in your repository settings informing you your site is published at `https://<username>.github.io/`.
+After completing the above, you should see a green checkmark below the `GitHub Pages` section in your repository settings. Your resume should now be published at `https://<username>.github.io/`.
