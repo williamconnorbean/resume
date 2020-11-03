@@ -15,7 +15,7 @@ This README will describe the practical steps of how to host and format a resume
 3. Ensure the repository name is in the following format: `<username>.github.io`, where `<username>` is your GitHub username you created in step 1.
 4. Ensure the visibility of your new repository is `Public`.
 5. Download the contents of this repository [here](https://github.com/williamconnorbean/williamconnorbean.github.io/archive/main.zip) and extract it to a directory on your local machine. **This will be used as an initial template for creating your resume.**
-7. Commit and Push this template to your new GitHub repository.
+7. Commit and push this template to your new GitHub repository.
 ```
 $ cd [directory-created-above]
 $ git init
@@ -69,7 +69,7 @@ These variables are used within `resume.html` to provide HTML header information
 ## **Education and Awards**
 {:.titles}
 ```
-In the above example, we apply the CSS class `titles` (which is defined in `styles.css`) to the `## **Education and Awards**` Markdown element.
+In the above example, we apply the CSS class `titles` (defined in `styles.css`) to the `## **Education and Awards**` Markdown element.
 
 See [here](https://kramdown.gettalong.org/quickref.html#block-attributes) for more information on the Kramdown renderer.
 
@@ -96,7 +96,7 @@ Additionally, we want our resume to be a living document within our version cont
 Navigate to the settings of your GitHub repository and check the following:
 
 1. Check that your respository name is in the following format: `<username>.github.io`.
-2. Ensure your repository's visibility is set to `public`.
+2. Ensure your repository's visibility is set to `Public`.
 3. Ensure your GitHub Pages site is being built from the `master` branch.
 4. Ensure your site is using the `Minima` theme.
 
