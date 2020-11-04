@@ -97,7 +97,7 @@ Navigate to the settings of your GitHub repository and check the following:
 
 1. Check that your respository name is in the following format: `<username>.github.io`.
 2. Ensure your repository's visibility is set to `Public`.
-3. Ensure your GitHub Pages site is being built from the `master` branch.
+3. Ensure your GitHub Pages site is being built from the `main` branch.
 4. Ensure your site is using the `Minima` theme.
 
 After completing the above, you should see a green checkmark below the `GitHub Pages` section in your repository settings. Your resume should now be published at `https://<username>.github.io/`.
