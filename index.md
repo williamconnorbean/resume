@@ -28,7 +28,7 @@ Winnipeg, MB R3R 0M9 · (204) 918-0758
 
 ### **SummerVibes App**{:.green} `2020`{:.dates}
 
-Web application used to track statistics about my friends and I annual collaborative Spotify playlist. Developed utilizing React with Redux, Express.js and the Spotify Web API.
+Web application used to track statistics about me and my friends annual collaborative Spotify playlist. Developed utilizing React with Redux, Express.js and the Spotify Web API.
 
 ### **Music Visualizer**{:.green} `2019`{:.dates}
 
