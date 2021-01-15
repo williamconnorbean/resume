@@ -7,14 +7,14 @@ layout: resume
 {:.center}
 Winnipeg, MB R3R 0M9 · (204) 918-0758
 {:.center}
-**beanw@myumanitoba.ca**
+**williamconnorbean@gmail.com**
 {:.center}
 {:.green}
 
 ## **Education and Awards**
 {:.titles}
 
-### **Bachelor of Computer Science Honours (Co-op)**{:.green} `2014 - Present`{:.dates}
+### **Bachelor of Computer Science Honours (Co-op)**{:.green} `2014 - 2020`{:.dates}
 
 ### **University of Manitoba**
 {:.grey}
