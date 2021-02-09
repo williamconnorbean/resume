@@ -65,3 +65,9 @@ li::before {
 .center {
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    body {
+        margin: 1rem 1rem;
+    }
+}
